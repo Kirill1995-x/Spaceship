@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Space explorer</string>
+    <string name="start_game">Начать игру</string>
+<!--<string name="choose_spaceship">Выбор корабля</string>-->
+    <string name="instruction">Инструкция</string>
+    <string name="about_authors">Об авторах</string>
+    <string name="result">Результат:</string>
+    <string name="km">км</string>
+    <string name="title_game_over">Игра окончена</string>
+    <string name="title_instruction">Инструкция</string>
+    <string name="message_instruction">Для работы...</string>
+    <string name="button_ok">Ок</string>
+    <string name="flag">normal</string>
+</resources>
