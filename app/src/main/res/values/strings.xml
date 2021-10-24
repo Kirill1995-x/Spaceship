@@ -1,14 +1,21 @@
 <resources>
     <string name="app_name">Space explorer</string>
     <string name="start_game">Начать игру</string>
-<!--<string name="choose_spaceship">Выбор корабля</string>-->
+    <!--<string name="choose_spaceship">Выбор корабля</string>-->
     <string name="instruction">Инструкция</string>
     <string name="about_authors">Об авторах</string>
     <string name="result">Результат:</string>
     <string name="km">км</string>
-    <string name="title_game_over">Игра окончена</string>
+    <string name="title_game_over">Миссия провалена</string>
     <string name="title_instruction">Инструкция</string>
-    <string name="message_instruction">Для работы...</string>
+    <string name="message_instruction">Вы являетесь пилотом космического корабля "Space explorer".
+        Ваша миссия - добраться до таинственной планеты X79 в Галактике "Око Саурона".
+        На пути к ней Вам необходимо преодолеть астероидный пояс. Чтобы успешно маневрировать,
+        Вы должны запомнить одно простое, но очень важное правило:
+        при нажатии на экран корабль будет подниматься вверх, а при отпускании - вниз.
+        И обратите внимание, что чем ближе Вы к планете, тем быстрее двигаются астероиды.
+        Удачи!
+    </string>
     <string name="button_ok">Ок</string>
     <string name="flag">normal</string>
 </resources>

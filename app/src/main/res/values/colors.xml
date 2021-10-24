@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="background_color">#000000</color>
     <color name="text_color">#FFFFFF</color>
+    <color name="text_color_dialog">#000000</color>
 </resources>

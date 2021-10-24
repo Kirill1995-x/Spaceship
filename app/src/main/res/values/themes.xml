@@ -17,14 +17,23 @@
     <style name="DefaultTextViewStyle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textColor">@color/text_color</item>
         <item name="android:textAllCaps">true</item>
         <item name="fontFamily">@font/font</item>
     </style>
     <style name="TextViewStyle" parent="DefaultTextViewStyle">
         <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+    <style name="TextViewDialogStyle" parent="DefaultTextViewStyle">
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:textColor">@color/text_color_dialog</item>
     </style>
     <style name="TextViewTitleStyle" parent="DefaultTextViewStyle">
         <item name="android:textSize">@dimen/title_size</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+    <style name="TextViewTitleDialogStyle" parent="DefaultTextViewStyle">
+        <item name="android:textSize">@dimen/title_size</item>
+        <item name="android:textColor">@color/text_color_dialog</item>
     </style>
 </resources>

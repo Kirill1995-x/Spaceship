@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <TextView
+            android:id="@+id/tvTitleOfDialog"
+            style="@style/TextViewTitleDialogStyle"
+            android:text="@string/title_instruction"
+            android:gravity="center_horizontal"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"/>
+        <TextView
+            android:id="@+id/tvMessageOfDialog"
+            style="@style/TextViewDialogStyle"
+            android:text="@string/message_instruction"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            app:layout_constraintTop_toBottomOf="@id/tvTitleOfDialog"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"/>
+        <Button
+            android:id="@+id/btnCloseDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_ok"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/text_size"
+            android:gravity="center"
+            android:layout_marginTop="40dp"
+            app:layout_constraintTop_toBottomOf="@id/tvMessageOfDialog"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:background="@drawable/button"/>
+    </LinearLayout>
+</ScrollView>
