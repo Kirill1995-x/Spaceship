@@ -97,6 +97,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         if(sharedPreferences.getBoolean("volume", true)){
             soundPool.play(sound, app.leftVolume, app.rightVolume, 0, 0, app.rate)
         }
+        startActivity(Intent(this, AboutAuthorsActivity::class.java))
     }
 
     private fun changeVolume():Unit

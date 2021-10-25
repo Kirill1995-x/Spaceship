@@ -1,4 +1,4 @@
-package com.rusdevapp.spaceship.elements
+package com.rusdevapp.spaceship.Elements
 
 import android.content.res.Resources
 import android.graphics.Bitmap

@@ -14,9 +14,9 @@ import android.os.Build
 import android.view.MotionEvent
 import android.view.SurfaceView
 import androidx.fragment.app.FragmentManager
-import com.rusdevapp.spaceship.elements.Asteroid
-import com.rusdevapp.spaceship.elements.Background
-import com.rusdevapp.spaceship.elements.Spaceship
+import com.rusdevapp.spaceship.Elements.Asteroid
+import com.rusdevapp.spaceship.Elements.Background
+import com.rusdevapp.spaceship.Elements.Spaceship
 import java.util.*
 
 class SpaceGame(context: Context): SurfaceView(context), Runnable
@@ -24,7 +24,7 @@ class SpaceGame(context: Context): SurfaceView(context), Runnable
     private var app: App //класс с константами
     private lateinit var activity: SpaceActivity
     private lateinit var supportFragmentManager: FragmentManager
-    private var thread: Thread //класс для создания потока
+    private lateinit var thread: Thread //класс для создания потока
     private var paint: Paint //класс для рисования объектов
     private var random: Random //класс для генерации рандомных значений
     private var sharedPreferences: SharedPreferences
@@ -42,7 +42,6 @@ class SpaceGame(context: Context): SurfaceView(context), Runnable
     private var asteroids: Array<Asteroid>
 
     init {
-        thread = Thread(this)
         app = App(context)
         sharedPreferences = this.context.getSharedPreferences(app.APP, MODE_PRIVATE)
         random = Random()
@@ -83,6 +82,7 @@ class SpaceGame(context: Context): SurfaceView(context), Runnable
 
     fun resume():Unit
     {
+        thread = Thread(this)
         continuePlay = true
         thread.start()
     }

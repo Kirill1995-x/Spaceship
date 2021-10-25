@@ -10,4 +10,5 @@
     <color name="background_color">#000000</color>
     <color name="text_color">#FFFFFF</color>
     <color name="text_color_dialog">#000000</color>
+    <color name="link_color">#FF3700B3</color>
 </resources>

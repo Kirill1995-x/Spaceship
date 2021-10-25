@@ -6,6 +6,7 @@
     <string name="about_authors">Об авторах</string>
     <string name="result">Результат:</string>
     <string name="km">км</string>
+    <string name="link_to_site">Ссылка на работы автора</string>
     <string name="title_game_over">Миссия провалена</string>
     <string name="title_instruction">Инструкция</string>
     <string name="message_instruction">Вы являетесь пилотом космического корабля "Space explorer".
