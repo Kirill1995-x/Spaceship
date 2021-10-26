@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "397536739330",
+    "project_id": "space-explorer-52e8c",
+    "storage_bucket": "space-explorer-52e8c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:397536739330:android:90dbc9b3a539f4ff16671b",
+        "android_client_info": {
+          "package_name": "com.rusdevapp.spaceship"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "397536739330-ng3rm3oq762aj4s7rtqrnrrdee9bhetd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR_kY57Uq4DMy9W7EA1PHFHvReefbd0q0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "397536739330-ng3rm3oq762aj4s7rtqrnrrdee9bhetd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
